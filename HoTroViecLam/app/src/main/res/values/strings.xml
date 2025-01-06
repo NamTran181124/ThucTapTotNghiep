@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">HoTroViecLam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="SaveJob">Danh sách việc làm đã lưu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_quanlytuyendung">Quản lý nhà tuyển dụng</string>
+    <string-array name="location_options">
+        <item>Hà Nội</item>
+        <item>Hồ Chí Minh</item>
+        <item>Đà Nẵng</item>
+        <item>Cần Thơ</item>
+    </string-array>
+
+    <string-array name="source_options">
+        <item>API</item>
+        <item>Website</item>
+        <item>Firestore</item>
+        <item>Tất cả</item> <!-- Tùy chọn để hiển thị tất cả các nguồn -->
+    </string-array>
+
+    <string-array name="salary">
+        <item>Dưới 10 triệu</item>
+        <item>10-20 triệu</item>
+        <item>20-30 triệu</item>
+        <item>30-40 triệu</item>
+        <item>40-50 triệu</item>
+        <item>Trên 50 triệu</item>
+        <item>Thỏa thuận</item>
+    </string-array>
+
+    <string-array name="job_industries">
+        <item>Công nghệ thông tin</item>
+        <item>Kỹ thuật phần mềm</item>
+        <item>Quản trị kinh doanh</item>
+        <item>Marketing</item>
+        <item>Tài chính - Ngân hàng</item>
+        <item>Nhân sự</item>
+        <item>Logistics và chuỗi cung ứng</item>
+        <item>Du lịch và khách sạn</item>
+        <item>Y tế</item>
+        <item>Kỹ thuật xây dựng</item>
+        <item>Thiết kế đồ họa</item>
+        <item>Truyền thông đa phương tiện</item>
+        <item>Giáo dục và đào tạo</item>
+        <item>Ngành luật</item>
+        <item>Kỹ thuật điện - điện tử</item>
+        <item>Ngoại ngữ</item>
+        <item>Khoa học dữ liệu</item>
+        <item>An toàn thông tin</item>
+        <item>Thể dục thể thao</item>
+    </string-array>
+
+    <string-array name="salary_options">
+        <item>Dưới 5 triệu</item>
+        <item>5 triệu - 10 triệu</item>
+        <item>Trên 10 triệu</item>
+    </string-array>
+
+    <string-array name="provinces">
+        <item>An Giang</item>
+        <item>Bà Rịa - Vũng Tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Hồ Chí Minh</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+    </string-array>
+
+    <string name="back_button">Quay lại</string> <!-- Mô tả cho nút trở về -->
+    <string name="avatar">Avatar</string>
+
+    <string name="sdtct">📞 Số Điện Thoại</string>
+    <string name="emailct">✉️ Email Công Ty</string>
+    <string name="tencongty">🏢 Tên công ty</string>
+    <string name="web">🏥 Website (nếu có):</string>
+    <string name="website">Link website</string>
+    <string name="diachi">🏥 Địa Chỉ</string>
+    <string name="tennguoituyendung">👤 Họ và tên người tuyển dụng:</string>
+    <string name="tp">Chọn tỉnh/thành phố</string>
+    <string name="logo">Logo công ty</string>
+    <string name="giayphep">Giấy phép chứng minh:</string>
+    <string name="ccmattruoc">CCCD mặt trước</string>
+    <string name="ccmatsau">CCCD mặt sau</string>
+    <string name="kinhdoanh">Giấy phép kinh doanh</string>
+    <string name="trangthai">Trạng Thái</string>
+
+    <string name="info_management">Màn hình thông tin nhà tuyển dụng</string>
+
+</resources>
